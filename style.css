@@ -1,0 +1,764 @@
+body {
+    background-color: rgb(59, 59, 59);
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-size: 2vh;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 135px;
+    height: 22px;
+    background: rgb(73, 98, 107);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: rgb(174, 205, 216);
+    color: rgb(56, 54, 54);
+}
+
+.leVrai, #monCV>#header {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(32, 32, 32);
+    color: dodgerblue;
+}
+
+footer p {
+    padding: 5px;
+}
+
+footer span {
+    color: coral;
+}
+
+#indexMain a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+#indexMain a:visited {
+    color: rgb(127, 162, 228);
+    font-weight: bold;
+}
+
+/*LE CV*/
+
+/*le titre h3 du header*/
+
+#monCV>#header h3 {
+    font-weight: bolder;
+    color: lightgray;
+    font-style: italic;
+}
+
+/*tout les titres h1 (il y en a qu'un seule*/
+
+#monCV h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #505050;
+}
+
+/*le span qui est dans le h1*/
+
+#monCV h1 span {
+    background-color: pink;
+}
+
+/*toute la classe ct*/
+
+#monCV .ct {
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+}
+
+/*le main et le footer*/
+
+#monCV #main, #monCV #footer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*une marge intérieure à gauche des deux div dans le header*/
+
+#monCV #header div {
+    padding-left: 30px;
+}
+
+/*tout les span qui suivent un élément #loisirs du footer*/
+
+#monCV #footer>#loisirs span {
+    font-weight: bold;
+}
+
+/*le premier li de la liste ul dans la div contact*/
+
+#monCV #footer>#contact ul>li:first-child {
+    color: lightgrey;
+}
+
+/*le header*/
+
+#monCV #header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-bottom-color: dodgerblue;
+}
+
+/*la classe double*/
+
+.double, .ct {
+    display: flex;
+}
+
+/*le main*/
+
+#monCV #main {
+    padding-top: 40px;
+}
+
+/*les div qui suivent la classe double*/
+
+.double>div {
+    width: 50%;
+    margin-left: 10px;
+}
+
+/*tout les p des div qui sont enfant d'une classe double*/
+
+.double>div p {
+    overflow: hidden;
+}
+
+/*la classe cercle*/
+
+.cercle {
+    background-color: dodgerblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/*tout les titres h4 de la classe ct*/
+
+.ct>h4 {
+    padding-left: 10px;
+}
+
+/*les premier span qui suivent un li enfant de liste ul dans section */
+
+section ul>li span:first-child {
+    color: dodgerblue;
+}
+
+/*les paragraphes en position pair qui suivent un li enfant de liste ul dans section*/
+
+section ul>li p:nth-child(2n) {
+    color: lightslategray;
+    margin-top: 0;
+}
+
+/*tout les paragraphes qui se situent dans un li enfant de ul dans section*/
+
+section ul>li p {
+    font-weight: normal;
+    padding-left: 30px;
+}
+
+/*toute les div contenue dans des li pair d'une liste ul dans un l'élément compétences*/
+
+#compétences ul>li:nth-child(2n) div {
+    height: 4px;
+    margin-top: 0;
+}
+
+/*toute les div contenue dans des li impair d'une liste ul dans un l'élément compétences*/
+
+#compétences ul>li:nth-child(2n+1) div {
+    height: 3px;
+    margin-top: 0;
+}
+
+/*les image de la page (que une seule ici)*/
+
+#monCV img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+}
+
+/*l'arrière de la progress bar .arriereBarre*/
+
+.arriereBarre {
+    background-color: lightgray;
+}
+
+/*l'avant de la progress bar, la classe .dessusBarre*/
+
+.dessusBarre {
+    background-color: dodgerblue;
+}
+
+/*tout les paragraphes p dans un li enfant d'une liste ul de l'élément #compétences*/
+
+#compétences ul>li p {
+    margin-bottom: 0px;
+}
+
+/*tout les li*/
+
+#monCV li {
+    padding-left: 10px;
+}
+
+/*tout les figure*/
+
+#monCV figure {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: solid lightgray;
+    margin-left: 0px;
+}
+
+/*tout les li enfant d'un liste ul dans un élément #expériences ou #formations */
+
+#experiences ul>li, #formations ul>li {
+    font-weight: bold;
+}
+
+/*tout les li enfant d'un liste ul dans un élément #contact*/
+
+#contact>ul li {
+    padding-left: 30px;
+}
+
+/*ARTICLE DU PPP*/
+
+#ppp {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#ppp h1, #ppp h2 {
+    color: coral;
+}
+
+#ppp>#header p, #ppp>#footer p {
+    color: deepskyblue;
+}
+
+#ppp figcaption {
+    color: darksalmon;
+}
+/*FICHE METIER*/
+#ficheMetier h2{
+    color: #e7b50f;
+}
+#ficheMetier h3{
+    color: #c884ff;
+}
+#ficheMetier h2>span{
+    background-color: #602a92;
+    color:rgb(169, 186, 218);
+}
+
+/*POUR ECRAN DE SMARTPHONE*/
+
+@media only screen and (max-width: 500px) {
+    /*SOMMAIRE*/
+    #indexMain {
+        display: table-cell;
+        width: 90%;
+    }
+    .index {
+        background: rgba(167, 167, 167, 0.5);
+        margin: 15px;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .index:hover {
+        background: rgba(146, 86, 86, 0.5);
+    }
+    .index img {
+        height: 150px;
+        width: 175px;
+    }
+    /*MENU*/
+    nav li {
+        margin-top: 5px;
+        display: block;
+    }
+    /*LE CV*/
+    /*le titre h3 du header*/
+    #monCV>#header h3 {
+        font-weight: bolder;
+        color: lightgray;
+        font-style: italic;
+    }
+    /*tout les titres h1 (il y en a qu'un seule*/
+    #monCV h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #505050;
+    }
+    /*le span qui est dans le h1*/
+    #monCV h1 span {
+        background-color: pink;
+    }
+    /*toute la classe ct*/
+    #monCV .ct {
+        border-bottom: 1px solid lightgray;
+        align-items: center;
+    }
+    /*le main et le footer*/
+    #monCV #main, #monCV #footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /*une marge intérieure à gauche des deux div dans le header*/
+    #monCV #header div {
+        padding-left: 30px;
+    }
+    /*tout les span qui suivent un élément #loisirs du footer*/
+    #monCV #footer>#loisirs span {
+        font-weight: bold;
+    }
+    /*le premier li de la liste ul dans la div contact*/
+    #monCV #footer>#contact ul>li:first-child {
+        color: lightgrey;
+    }
+    /*le header*/
+    #monCV #header {
+        display: inline-block;
+        border-bottom: solid;
+        border-bottom-color: dodgerblue;
+    }
+    /*la classe double*/
+    .double {
+        display: block;
+        width: 100%;
+    }
+    .ct {
+        display: flex;
+    }
+    /*le main*/
+    #monCV #main {
+        padding-top: 40px;
+    }
+    /*les div qui suivent la classe double*/
+    .double>div {
+        width: 50%;
+        margin-left: 10px;
+    }
+    /*tout les p des div qui sont enfant d'une classe double*/
+    .double>div p {
+        overflow: hidden;
+    }
+    .double>div {
+        width: 95%;
+    }
+    /*la classe cercle*/
+    .cercle {
+        background-color: dodgerblue;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    /*tout les titres h4 de la classe ct*/
+    .ct>h4 {
+        padding-left: 10px;
+    }
+    /*les premier span qui suivent un li enfant de liste ul dans section */
+    section ul>li span:first-child {
+        color: dodgerblue;
+    }
+    /*les paragraphes en position pair qui suivent un li enfant de liste ul dans section*/
+    section ul>li p:nth-child(2n) {
+        color: lightslategray;
+        margin-top: 0;
+    }
+    /*tout les paragraphes qui se situent dans un li enfant de ul dans section*/
+    section ul>li p {
+        font-weight: normal;
+        padding-left: 30px;
+    }
+    /*toute les div contenue dans des li pair d'une liste ul dans un l'élément compétences*/
+    #compétences ul>li:nth-child(2n) div {
+        height: 4px;
+        margin-top: 0;
+    }
+    /*toute les div contenue dans des li impair d'une liste ul dans un l'élément compétences*/
+    #compétences ul>li:nth-child(2n+1) div {
+        height: 3px;
+        margin-top: 0;
+    }
+    /*les image de la page (que une seule ici)*/
+    #monCV img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        border-radius: 50%;
+    }
+    /*l'arrière de la progress bar .arriereBarre*/
+    .arriereBarre {
+        background-color: lightgray;
+    }
+    /*l'avant de la progress bar, la classe .dessusBarre*/
+    .dessusBarre {
+        background-color: dodgerblue;
+    }
+    /*tout les paragraphes p dans un li enfant d'une liste ul de l'élément #compétences*/
+    #compétences ul>li p {
+        margin-bottom: 0px;
+    }
+    /*tout les li*/
+    #monCV li {
+        padding-left: 10px;
+    }
+    /*tout les figure*/
+    #monCV figure {
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        border: solid lightgray;
+        margin-left: 0px;
+    }
+    /*tout les li enfant d'un liste ul dans un élément #expériences ou #formations */
+    #experiences ul>li, #formations ul>li {
+        font-weight: bold;
+    }
+    /*tout les li enfant d'un liste ul dans un élément #contact*/
+    #contact>ul li {
+        padding-left: 30px;
+    }
+    #monCV>#header figure {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*ARTICLE*/
+    #ppp>#main .content {
+        background-color: rgb(106, 109, 114);
+        margin-top: 10px;
+        padding: 5px 5px 5px 5px;
+    }
+    #ppp img {
+        width: 200px;
+    }
+    #ppp .content>figure {
+        text-align: center;
+    }
+    /*SYNTHESE*/
+    #synthese {
+        word-wrap: break-word;
+    }
+    #synthese p:nth-child(2n) {
+        background-color: rgb(107, 83, 55);
+    }
+    #synthese p:nth-child(2n+1) {
+        background-color: rgb(49, 98, 51);
+    }
+    #synthese>p:first-child, #synthese>p:nth-child(13), #synthese>p:nth-last-child(1), #synthese>p:nth-child(15) {
+        display: block;
+        width: 98%;
+        background-color: transparent;
+    }
+    #synthese>p {
+        display: block;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #synthese ul {
+        margin-left: 40px;
+    }
+    #synthese>figure {
+        text-align: center;
+    }
+    #synthese img {
+        width: 200px;
+    }
+    #synthese figcaption {
+        color: darkorange;
+    }
+        /*INTERVIEW*/
+        #interview figure {
+            text-align: center;
+        }
+        #interview>div {
+            display: inline-block;
+        }
+        #interview img:first-child {
+            height:350px;
+            width: 200px;
+        }
+        #interview img:last-child {
+            height:170px;
+            width: 200px;
+        }
+        #interview {
+            word-wrap: break-word;
+            text-align: justify;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+                /*FICHE METIER*/
+                #ficheMetier > section >div{
+                    display: block;
+                    background-color: rgb(71, 104, 167);
+                    margin: 10px;
+                    padding: 5px;
+                }
+                #ficheMetier img{
+                    width: 175px;
+                }
+                #ficheMetier figure,#ficheMetier h2{
+                    text-align: center;
+                }
+               
+                #ficheMetier >p{
+                    margin-left:10%;
+                    margin-right: 10%;
+                    text-align: justify;
+                    font-weight: bold;
+                }
+}
+
+/*POUR ECRAN DE TABLETTE*/
+
+@media only screen and (min-width:500px) and (max-width:1024px) {
+    /*LE SOMMAIRE*/
+    #indexMain {
+        display: table-cell;
+        width: 50%;
+    }
+    .index {
+        background: rgba(167, 167, 167, 0.5);
+        margin: 15px;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .index:hover {
+        background: rgba(146, 86, 86, 0.5);
+    }
+    .index img {
+        height: 150px;
+        width: 200px;
+    }
+    /*LE MENU*/
+    nav li {
+        margin-top: 5px;
+        display: inline-block;
+        white-space: nowrap;
+    }
+    /*ARTICLE*/
+    #ppp>#main .content {
+        background-color: rgb(106, 109, 114);
+        margin-top: 10px;
+        padding: 5px 5px 5px 5px;
+    }
+    #ppp img {
+        width: 400px;
+    }
+    #ppp .content>figure {
+        text-align: center;
+    }
+    /*SYNTHESE*/
+    #synthese {
+        word-wrap: break-word;
+    }
+    #synthese p:nth-child(2n) {
+        background-color: rgb(107, 83, 55);
+    }
+    #synthese p:nth-child(2n+1) {
+        background-color: rgb(49, 98, 51);
+    }
+    #synthese>p:first-child, #synthese>p:nth-child(13), #synthese>p:nth-last-child(1), #synthese>p:nth-child(15) {
+        display: block;
+        width: 98%;
+        background-color: transparent;
+    }
+    #synthese>p {
+        display: inline-block;
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #synthese ul {
+        margin-left: 40px;
+    }
+    #synthese>figure {
+        text-align: center;
+    }
+    #synthese img[src="img/ent.png"] {
+        width: 400px;
+    }
+    #synthese figcaption {
+        color: darkorange;
+    }
+    /*INTERVIEW*/
+    #interview figure {
+        text-align: center;
+    }
+    #interview>div {
+        display: inline-block;
+    }
+    #interview img:first-child {
+        height:450px;
+        width: 350px;
+    }
+    #interview img:last-child {
+        height:200px;
+        width: 350px;
+    }
+    #interview {
+        word-wrap: break-word;
+        text-align: justify;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+        /*FICHE METIER*/
+        #ficheMetier > section >div{
+            display: block;
+            background-color: rgb(71, 104, 167);
+            margin: 10px;
+            padding: 5px;
+        }
+        #ficheMetier img{
+            width: 400px;
+        }
+        #ficheMetier figure,#ficheMetier h2{
+            text-align: center;
+        }
+       
+        #ficheMetier >p{
+            margin-left:10%;
+            margin-right: 10%;
+            text-align: justify;
+            font-weight: bold;
+        }
+}
+
+/*POUR ECRAN DE PC*/
+
+@media only screen and (min-width:1024px) {
+    /*LE SOMMAIRE*/
+    #indexMain {
+        display: flex;
+    }
+    .index {
+        background: rgba(167, 167, 167, 0.5);
+        width: 25%;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .index:hover {
+        background: rgba(146, 86, 86, 0.5);
+    }
+    .index img {
+        height: 50%;
+        width: 90%;
+    }
+    /*LE MENU*/
+    nav li {
+        display: inline-block;
+        width: 16%;
+        margin: auto;
+    }
+    /*ARTICLE DU PPP*/
+    #ppp>#main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #ppp .content {
+        display: flex;
+    }
+    /*SYNTHESE*/
+    #synthese {
+        word-wrap: break-word;
+    }
+    #synthese p:nth-child(2n) {
+        background-color: rgb(107, 83, 55);
+    }
+    #synthese p:nth-child(2n+1) {
+        background-color: rgb(49, 98, 51);
+    }
+    #synthese>p:first-child, #synthese>p:nth-child(13), #synthese>p:nth-last-child(1), #synthese>p:nth-child(15) {
+        display: block;
+        width: 98%;
+        background-color: transparent;
+    }
+    #synthese>p {
+        display: inline-block;
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #synthese ul {
+        margin-left: 40px;
+    }
+    #synthese>figure {
+        text-align: center;
+    }
+    #synthese img[src="img/ent.png"] {
+        width: 900px;
+    }
+    #synthese figcaption {
+        color: darkorange;
+    }
+    /*INTERVIEW*/
+    #interview figure {
+        text-align: center;
+    }
+    #interview>div {
+        display: inline-block;
+    }
+    #interview img:first-child {
+        height: 700px;
+        width: 500px;
+    }
+    #interview {
+        text-align: justify;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #interview img:last-child {
+        height:300px;
+        width: 470px;
+    }
+    /*FICHE METIER*/
+    #ficheMetier > section >div{
+        display: flex;
+        background-color: rgb(71, 104, 167);
+        margin: 10px;
+        padding: 5px;
+    }
+    #ficheMetier img{
+        width: 500px;
+    }
+    #ficheMetier figure{
+        margin: auto;
+    }
+   
+    #ficheMetier >p{
+        margin-left:20%;
+        margin-right: 20%;
+        text-align: justify;
+        font-weight: bold;
+    }
+}

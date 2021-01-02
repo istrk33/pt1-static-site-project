@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header class="leVrai">
+        <h1 id="haut">Mon CV</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Page d'acceuil</a></li>
+                <li><a href="synthese.html">Synthèse</a></li>
+                <li><a href="ficheMetier.html">Fiche Métier</a></li>
+                <li><a href="ppp.html">Article</a></li>
+                <li><a href="interview.html">Interview</a></li>
+                <li><a href="poster.pdf" target="_blank">Poster</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="monCV">
+        <div id="header">
+            <div>
+                <h1><span>Ilker</span> SOYTÜRK</h1>
+                <h3>Étudiant IUT Informatique - Programmeur</h3>
+            </div>
+            <div>
+                <figure>
+                    <img src="img/ilker.jpg" alt="erreur">
+                </figure>
+            </div>
+        </div>
+        <div id="main">
+            <div class="double">
+                <div id="aPropos">
+                    <!--Mise en place des cercle avelc les titres de cette manière
+                    on met le tout dans une grande div qu'on display en flex dans le 
+                    css-->
+                    <div class="ct">
+                        <div class="cercle"></div>
+                        <h4>À propos</h4>
+                    </div>
+                    <p>
+                        Je suis Ilker Soytürk, Étudiant en Iut-Informatique à Bordeaux. La programmation
+                        est un domaine qui m'intéresse beaucoup. Je suis trés intéressé par le football.
+                    </p>
+                </div>
+                <div id="compétences">
+                    <div class="ct">
+                        <div class="cercle"></div>
+                        <h4>Compétences</h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>Programmation Objet</p>
+                            <!--Mise en place d'une progress bar
+                            en précisant la largeur de la barre bleu directement 
+                            sur le html sinon dans le css il allait y avoir plusieurs
+                            lignes-->
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 45%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Java</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 55%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>C#</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 35%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Bash</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 60%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>SQL</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 45%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Libre Office</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 75%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Organisation réseaux</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 40%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>IHM</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 40%;">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>GIT</p>
+                            <div class="arriereBarre">
+                                <div class="dessusBarre" role="progressbar" aria-valuemax="100" style="width: 25%;">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section id="experiences">
+                <div class="ct">
+                    <div class="cercle"></div>
+                    <h4>Expériences</h4>
+                </div>
+                <ul>
+                    <li>
+                        <!--on met des espaces avec le "&nbsp;"-->
+                        <span>Stagiaire</span> chez Piscines Desjoyaux
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mérignac
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Novembre 2014</p>
+                        <p>Découverte du monde professionnel dans le domaine de la vente de piscine.</p>
+                    </li>
+                    <li>
+                        <span>Ouvrier</span> chez Entreprise 2000
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Déplacement chez les clients
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Temps libre</p>
+                        <p>Travaille dans les temps libre dans "Entreprise 2000", en tant qu'ouvrier.
+                            Déplacement chez des clients pour faire du dépannage de piscines... etc
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="formations">
+                <div class="ct">
+                    <div class="cercle"></div>
+                    <h4>Formations</h4>
+                </div>
+                <ul>
+                    <li>
+                        <span>Lycée / Bac STI2D</span> au Lycée Pape Clément
+                        <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pessac
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016-2018 </p>
+                        <p>Première et terminale en STI2D, option SIN. Bac obtenu avec mention
+                            bien.</p>
+                    </li>
+                    <li>
+                        <span>Permis B / Permis de conduire</span> à Auto École Alouette
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pessac Alouette
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Décembre 2015-Novembre 2018</p>
+                        <p>Obtention du permis B en conduite accompagnée.</p>
+                    </li>
+                    <li>
+                        <span>Collège / Brevet</span> au Collège François Mitterrand
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pessac &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Septembre 2011-Juin 2015</p>
+                        <p>Brevet des collèges avec mention Assez Bien.</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer double">
+            <div id="loisirs">
+                <div class="ct">
+                    <div class="cercle"></div>
+                    <h4>Loisirs</h4>
+                </div>
+                <p><span>Sports : </span>musculation à la salle, foots entre amis</p>
+                <p><span>Association : </span>non</p>
+                <p><span>Loisirs : </span>sortir avec les amis, jouer aux jeux vidéo, coder des projets personnels</p>
+            </div>
+            <div id="contact">
+                <div class="ct">
+                    <div class="cercle"></div>
+                    <h4>Contact</h4>
+                </div>
+                <p>Si mon profil vous intéresse, n'hésitez pas à me contacter :</p>
+                <ul>
+                    <li>Bordeaux, France</li>
+                    <li>06 52 30 70 61</li>
+                    <li><a href="mailto:ilker.soyturk@etu.u-bordeaux.fr">ilker.soyturk@etu.u-bordeaux.fr</a></li>
+                    <li><a href="index.html">www.mon-Site.fr</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="leVrai">
+        <p><span>Copyright©2020</span><br> Site PT1 d'Ilker Soytürk<br>Mentions légales<br><a href="#haut">Remonter en haut</a></p>
+    </footer>
+</body>
+
+</html>
